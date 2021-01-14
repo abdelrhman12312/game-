@@ -1,0 +1,22 @@
+makeing desicions with the  while loop
+playing again is an example of that
+#include <iostream>
+using namespace std;
+int main()
+{
+char again = ’y’;
+while (again == ’y’)
+{
+cout << "\n**Played an exciting game**";
+cout << "\nDo you want to play again? (y/n): ";
+cin >> again;
+}
+cout << "\nOkay, bye.";
+return 0;
+}
+continue : means jump back to the top of the loop
+break : jump out from the code block
+-------------------------------------------------------------------------------
+cstdlib is a stand for c standard library.
+inlining function means coping the funcion contains in where it called this can make your
+program much faster but also can make your momery suffer 
